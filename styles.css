@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(148, 221, 148);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#center {
+  width: 80%;
+  height: 82%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+#top-nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(50, 129, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-inner {
+  /* background-color: rgb(168, 168, 235); */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.box {
+  width: 40px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+/* .elem h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+} */
+
+#circle-div-p{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgb(45, 151, 31);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.bubble:hover{
+  cursor: pointer;
+  background-color: rgb(32, 104, 22);
+}
